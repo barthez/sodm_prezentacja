@@ -1,0 +1,55 @@
+\section{GermWatcher - wykrywanie zakażeń szpitalnych}
+
+\begin{frame}
+\frametitle{GermWatcher wykrywanie\\
+\hskip8ex zakażeń szpitalnych}
+    
+  \begin{itemize}
+	  \item Powstał, aby pomagać Wydziałom Kontroli Infekcji.
+    \item Wspomaga czynności związane z kontrolą infekcji obejmujące obserwacje danych dotyczących kultur mikrobiologicznych.
+    \item Umieszczony w szpitalach akademickich Barnes (w lutym 1993) i Jewish (w lipcu 1995).
+  \end{itemize}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{GermWatcher - założenia}
+
+  Zakażenia szpitalne są jednym spośród głównych powodów:
+  \begin{description} 
+    \item[przedłużonych pobytów] pacjentów w szpitalu;
+    \item[dodatkowych kosztów] szpitalnych.
+  \end{description}
+  \\
+  Do wykrywania zakażeń szpitalnych zastosowano kryteria:
+  \begin{itemize}
+	  \item CDC (Centers for Disease Control, \textit{Centra kontroli chorób}).
+	  \item NNIS (National Nosocomial Infection Surveillance, \textit{Krajowa obserwacja zakażenia szpitalnego}).
+  \end{itemize} 
+
+\end{frame}
+
+\begin{frame}
+\frametitle{GermWatcher - użyte technologie}
+
+  System zbudowany jest w oparciu o:
+  \begin{itemize}
+	  \item zgeneralizowaną powłokę systemu ekspertowego (the GermWatcher Engine),
+	  \item CLIPS,
+	  \item skrypty Sybase ISQL,
+	  \item skrypty powłoki Bourne.
+  \end{itemize}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{GermWatcher - schemat działania}
+
+  \begin{enumerate}
+	  \item Dane dotyczące kultur mikrobiologicznych ze szpitalnego systemu laboratoryjnego są monitorowane przez system.
+	  \item Analizowana jest główna baza danych, zawiera kombinacje kryteriów NNIS oraz lokalna, szpitalna polityka kontroli infekcji.
+	  \item Germwatcher skanuje informacje i identyfikuje zakażone kultury.
+	  \item Następnie infekcje te zgłaszane są do CDC. 
+  \end{enumerate}
+
+\end{frame}
