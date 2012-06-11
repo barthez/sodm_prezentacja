@@ -27,5 +27,6 @@
 *.mtc0
 *.pdf
 *~
+*.swp
 *.tex.swp
 *.ini
