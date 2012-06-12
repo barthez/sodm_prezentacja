@@ -30,3 +30,7 @@
 *.swp
 *.tex.swp
 *.ini
+
+
+*.zip
+*.tar.gz
